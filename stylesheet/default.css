@@ -1,0 +1,32 @@
+html{
+	background-color: #efefef;
+}
+
+.header{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.id{
+
+}
+
+.nav{
+
+}
+
+p{
+	color:#3f5765;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer {
+    position:absolute;
+    bottom:0px;
+    width: 100%;
+    margin: 0;
+    background-color: black;
+    height: 100px;
+}
