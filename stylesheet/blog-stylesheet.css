@@ -1,4 +1,26 @@
+.body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+ 
+.titlearea div {
+  position: relative;
+}
 
+.title {
+  display: inline-block;
+}
+
+img {
+  height: 200px;
+}
+
+.picture {
+  display: inline-block;
+  position:relative;
+  left: 30%; 
+}
 
 h1{
 	color: #3f5765;
@@ -7,15 +29,23 @@ h1{
 }
 
 h2{
+	position: relative;
 	color: #3f5765;
 	font-family: 'Amatic SC', cursive;
 	font-weight: bold;
 	font-size: 35px;
+	left: 25px;
 }
 
 h4{
+	position: relative;
 	color: #3f5765;
 	font-family: 'Amatic SC', cursive;
 	font-weight: bold;
 	font-size: 20px;
+	left: 25px;
+}
+
+.content{
+
 }
