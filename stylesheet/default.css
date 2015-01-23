@@ -2,6 +2,16 @@ html{
 	background-color: #efefef;
 }
 
+div.id h1{
+	position: relative;
+	font-family: 'Rock Salt', cursive;
+	font-weight: bold;
+	font-size: 30px;
+	color: #ff530d;
+	text-shadow: 3px 3px 3px #2b3a42;
+	-webkit-text-stroke: 1px #2b3a42;
+}
+
 .header{
 	position: relative;
 	display: block;
