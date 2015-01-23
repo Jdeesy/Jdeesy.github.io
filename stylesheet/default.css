@@ -3,22 +3,24 @@ html{
 }
 
 .header{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
+	position: relative;
+	display: block;
+	text-align: center;
+	background-color: #bdd4de;
+	top:-22px;
+}	
 
 .id{
-
+	
+	
 }
 
 .nav{
-
+	
 }
 
 p{
-	color:#3f5765;
+	color: #3f5765;
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -26,8 +28,8 @@ p{
     position:absolute;
     left:0;
     bottom:0px;
-    height: 100px;
+    height: 25px;
     width: 100%;
     margin: 0;
-    background-color: #2b3a42;
+    background-color: #bdd4de;
 }
