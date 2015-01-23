@@ -6,30 +6,68 @@ html{
 	position: relative;
 	display: block;
 	text-align: center;
+	width:50%;
+	transform:translateX(50%);
 	background-color: #bdd4de;
 	top:-22px;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
 }	
 
-.id{
-	
-	
+/*this adds space between nav menu buttons*/
+div.nav a{
+	margin-right: 20px;
+	position: relative;
+	width: 75px;
+	height: 25px;	
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	display: inline-block;
+}
+/*This is link pseudo-unvisited link,visited link,mouse over, and selected link*/
+div.nav a:link{	
+	color: #efefef;
+	background-color: #3f5765;
 }
 
-.nav{
-	
+div.nav a:visited{
+	color: #bdd4de;
+}
+
+div.nav a:hover{
+	color: #ff530d;
+	box-shadow: 3px 3px 3px #2b3a42 inset;
+
+}
+
+div.nav a:active{
+	color: #ff530d;
+	background-color: #2b3a42;
+}
+
+.navwords {
+	position: relative;
+	top: 0px;
+	font-family: 'Amatic SC', cursive;
+	font-weight: bold;
+	font-size: 20px;
 }
 
 p{
 	color: #3f5765;
 	font-family: 'Source Sans Pro', sans-serif;
 }
-
+/*Till I get footer to stick to the bottom of the page when there is no content then I will remove it
 .footer {
-    position:absolute;
-    left:0;
     bottom:0px;
     height: 25px;
-    width: 100%;
-    margin: 0;
+    width: 50%;
+    bottom: -15px;
+    position:relative;
     background-color: #bdd4de;
+    border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	transform:translateX(50%);
+	text-align: center;
 }
+*/
