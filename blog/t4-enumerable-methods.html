@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <title>Enumerable</title>
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" type="text/css" href="../stylesheet/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheet/blog-stylesheet.css">
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro|Amatic+SC:700|Rock+Salt' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+  <div class="header">
+    <div class="id">
+      <h1>John Dees</h1>
+    </div>
+  
+    <div class="nav">
+      <a href="../index.html"><div class="navwords">Home</div></a>
+      <a href="../about-me.html"><div class="navwords">About Me</div></a>
+      <a href="../projects-homepage.html"><div class="navwords">Projects</div></a>
+      <a href="../blog-homepage.html"><div class="navwords">Blogs</div></a>
+    </div>
+  </div>
+
+  <div class="body">
+   <div class="titlearea">
+     <div class="title">
+       <h1>Enumber Methods</h1>
+       <h2>Using Map</h2>
+       <h4>February 6, 2015</h4>
+     </div>
+     <div class="picture">
+<!--        <img src="#"> -->
+     </div>
+  </div>
+
+  <div class="content">
+    <p>
+      In Ruby we can use a method called <span style="font-weight: bold;">map</span>. <span style="font-weight: bold;">Map</span> allows us to execute a given <span style="font-weight: bold;">block</span> for each element in an array. <span style="font-weight: bold;">Blocks</span> are instructions, they take in arguments and return values. <span style="font-weight: bold;">Map</span> is very similar to the method <span style="font-weight: bold;">each</span>; they both allow you to execute a given block to every element in the array, but map will return a new array whereas each will return the original unmodified array by default. Here is an example of map with its block: 
+    </p>
+    <p> <img src="../img/ex_map.png"> </p>
+    <p>
+      As you can see in the example above, we take an array and use the <span style="font-weight: bold;">.map</span> on it. This allows us to manipulate and return a value. In the <span style="font-weight: bold;">block { |x| x * 2}</span> it is telling it the program to take an element in the array, assign it the the variable <span style="font-weight: bold;">x</span> and multiple it by two. And since we are using the <span style="font-weight: bold;">map</span> method, it does this for every element in the array. So this program would return <span style="font-weight: bold;">[2, 4, 6, 8, 10]</span>.  
+    </p>
+    
+    <p>
+      I hope this gives you a basic understanding of the <span style="font-weight: bold;">map</span> method. If you have any question feel free to email and ask me.
+    </p>
+  </div>
+</body>
+</html>
