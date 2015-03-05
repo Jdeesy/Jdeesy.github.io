@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<header>
+<link rel="stylesheet" type="text/css" href="cheat-sheet.css">
+<h3>ENUMERABLES</h3>
+</header>
+
+<body>
+  <h1>What Is an Enumerable?</h1>
+  <p>An Enumerable module has a set of methods that traverse,sort,search, and manipulate.If you ever needed to manipulate an array or some form of data, instead of using loops you can use enumerable methods.</p>
+  <h1>Enumerable Methods</h1>
+  <h2>each Method</h2>
+  <p>A method belonging to an array and other collection classes. Its also known as an iterator that cycles through the blocks that acts or depends on each element collection.</p>
+  <pre>
+    <code>
+      array = [1,2,3]
+      array.each do |number|
+      puts number * 2
+      end
+      => 2
+      => 4
+      => 6
+    </code>
+  </pre>
+  <p>As you can see we inputted an object(array) equal to "[1,2,3]" which are the values inside "array". <code>each</code> allows us to manipulate the values inside array. This puts each number in array and multiplies it by two. In result we get "2", "4", "6".</p>
+
+  <h2>Min and Max</h2>
+   <p>Compares all the elements in a collection of data and returns the minimum value and the maximum value depending on which method you use.</p>
+   <pre>
+    <code>
+      array = [1,2,3]
+      array.min
+      => 1
+      array = [1,2,3]
+      array.max
+      => 3
+    </code>
+   </pre>
+   <h2>Include?</h2>
+   <p>Returns true if an element equals a value.</p>
+   <pre>
+    <code>
+      array = [1,2,3]
+      array.include?(1)
+      => true
+      array = [1,2,3]
+      array.include?(10)
+      =>false
+    </code>
+   </pre>
+   <h2>Sort</h2>
+   <p>Can sort by using a block or sort by ascending order if no block is provided. Sort will return an array.</p>
+   <pre>
+    <code>
+      array = [1,2,3]
+      array.sort{|a,b| b <=> a}
+      => [3,2,1]
+      array = [3,2,1]
+      array.sort
+      => [1,2,3]
+    </code>
+   </pre>
+</body>
+</html>
