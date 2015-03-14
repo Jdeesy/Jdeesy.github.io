@@ -1,58 +1,55 @@
 html{
-	background-color: #efefef;
+	background-color: #FFFFFF;
 }
 
 div.id h1{
-	position: relative;
+	text-align: left;
+	margin-left: 5px;
+	margin-bottom: -15px;
 	font-family: 'Rock Salt', cursive;
 	font-weight: bold;
 	font-size: 30px;
-	color: #ff530d;
-	text-shadow: 3px 3px 3px #2b3a42;
-	-webkit-text-stroke: 1px #2b3a42;
+	color: #333;
+	text-shadow: 1px 2px 3px #333;
+	-webkit-text-stroke: 1px #333;
 }
 
 .header{
-	position: relative;
 	display: block;
 	text-align: center;
 	width:50%;
 	transform:translateX(50%);
-	background-color: #bdd4de;
-	top:-22px;
 	border-bottom-left-radius: 30px;
 	border-bottom-right-radius: 30px;
 }	
 
 /*this adds space between nav menu buttons*/
-div.nav a{
-	margin-right: 20px;
+div.nav a{	
+	margin-right: 50px;
 	position: relative;
+	margin-top: -25px;
 	width: 75px;
 	height: 25px;	
-	border-top-left-radius: 15px;
-	border-top-right-radius: 15px;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
 	display: inline-block;
 }
 /*This is link pseudo-unvisited link,visited link,mouse over, and selected link*/
 div.nav a:link{	
-	color: #efefef;
-	background-color: #3f5765;
+	color: #666;
 }
 
 div.nav a:visited{
-	color: #bdd4de;
+	color: #999;
 }
 
 div.nav a:hover{
-	color: #ff530d;
-	box-shadow: 3px 3px 3px #2b3a42 inset;
-
+	color: #DE5A51;
+	box-shadow: 3px 3px 3px #666 inset;
 }
 
 div.nav a:active{
-	color: #ff530d;
-	background-color: #2b3a42;
+	color: #333;	
 }
 
 .navwords {
@@ -63,10 +60,60 @@ div.nav a:active{
 	font-size: 20px;
 }
 
+hr.top-line {
+	color: #333; 
+	background: #333;
+	margin-bottom: 5px;
+	height: 2px;
+}
+
+hr.bot-line {
+	color: #666; 
+	background: #666;
+	margin-top: -0px;
+	margin-bottom: 1px;	
+}
+
+.content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h1{
+	font-family: 'Rock Salt', cursive;
+	font-weight: bold;
+	font-size: 20px;
+	color: #666;
+	text-shadow: 1px 2px 2px #666;
+	-webkit-text-stroke: 1px #666;
+}
+
+h2{
+	margin-top: -15px;
+	position: relative;
+	color: #DE5A51;
+	font-family: 'Amatic SC', cursive;
+	font-weight: bold;
+	font-size: 35px;
+	left: 25px;
+}
+
+h4{
+	margin-top: -20px;
+	position: relative;
+	color: #666;
+	font-family: 'Amatic SC', cursive;
+	font-weight: bold;
+	font-size: 20px;
+	left: 25px;
+}
+
 p{
-	color: #3f5765;
+	color: #666;
 	font-family: 'Source Sans Pro', sans-serif;
 }
+
 
 /*Till I get footer to stick to the bottom of the page when there is no content then I will remove it
 .footer {

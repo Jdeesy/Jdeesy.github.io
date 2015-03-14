@@ -1,3 +1,23 @@
-.blogs a{
+a{
 	display: block;
+}
+
+a:link{	
+	color: #666;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+a:visited{
+	color: #999;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+a:hover{
+	color: #DE5A51;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+a:active{
+	color: #333;
+	font-family: 'Source Sans Pro', sans-serif;	
 }
