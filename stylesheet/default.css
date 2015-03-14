@@ -1,5 +1,5 @@
 html{
-	background-color: #FFFFFF;
+	background-color: #efefef;
 }
 
 div.id h1{
@@ -114,7 +114,25 @@ p{
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
+a:link{	
+	color: #666;
+	font-family: 'Source Sans Pro', sans-serif;
+}
 
+a:visited{
+	color: #999;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+a:hover{
+	color: #DE5A51;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+a:active{
+	color: #333;
+	font-family: 'Source Sans Pro', sans-serif;	
+}
 /*Till I get footer to stick to the bottom of the page when there is no content then I will remove it
 .footer {
     bottom:0px;
