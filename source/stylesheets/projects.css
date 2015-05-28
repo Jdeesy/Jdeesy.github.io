@@ -1,0 +1,26 @@
+.panel-body.code {
+/*  background: url("/images/Space_1.png");
+*/
+  background-color: red;
+}
+
+.panel-body.design {
+  background-color: red;
+}
+
+.panel-body.video {
+  background-color: red;
+}
+
+a.projects:link, a.projects:visited {
+  color: white;
+}
+
+a.projects:hover {
+  color: black;
+}
+
+
+.panel-body {
+  height: 15em;
+}
