@@ -14,7 +14,9 @@ title: Using Map
   <p>
   In Ruby we can use a method called <span style="font-weight: bold;">map</span>. <span style="font-weight: bold;">Map</span> allows us to execute a given <span style="font-weight: bold;">block</span> for each element in an array. <span style="font-weight: bold;">Blocks</span> are instructions, they take in arguments and return values. <span style="font-weight: bold;">Map</span> is very similar to the method <span style="font-weight: bold;">each</span>; they both allow you to execute a given block to every element in the array, but map will return a new array whereas each will return the original unmodified array by default. Here is an example of map with its block: 
   </p>
-  <p> <img src="../img/ex_map.png"> </p>
+
+  <img src="/images/ex_map.png">
+  
   <p>
   As you can see in the example above, we take an array and use the <span style="font-weight: bold;">.map</span> on it. This allows us to manipulate and return a value. In the <span style="font-weight: bold;">block { |x| x * 2}</span> it is telling it the program to take an element in the array, assign it the the variable <span style="font-weight: bold;">x</span> and multiple it by two. And since we are using the <span style="font-weight: bold;">map</span> method, it does this for every element in the array. So this program would return <span style="font-weight: bold;">[2, 4, 6, 8, 10]</span>.  
   </p>
