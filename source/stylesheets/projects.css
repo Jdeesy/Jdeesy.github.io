@@ -1,15 +1,13 @@
 .panel-body.code {
-/*  background: url("/images/Space_1.png");
-*/
-  background-color: red;
+  background: url("/images/coding.png");
 }
 
 .panel-body.design {
-  background-color: red;
+  background: url("/images/gaming.png");
 }
 
 .panel-body.video {
-  background-color: red;
+  background: url("/images/child.png");
 }
 
 a.projects:link, a.projects:visited {
