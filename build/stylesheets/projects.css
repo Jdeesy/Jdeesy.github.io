@@ -16,3 +16,10 @@
 .panel-body {
   height: 15em;
 }
+
+.project-panel {
+  /*border: 1px solid #999;*/
+  /*border: 1px solid rgb(127, 0, 0);*/
+  border: 1px solid rgba(0, 0, 0, .9);
+  /*box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.3);*/
+}
