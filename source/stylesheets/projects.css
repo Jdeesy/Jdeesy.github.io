@@ -1,5 +1,5 @@
 .panel-body.code {
-  background: url("/images/coding.png");
+  background: url("/images/code.png");
 }
 
 .panel-body.design {
@@ -10,15 +10,9 @@
   background: url("/images/child.png");
 }
 
-a.projects:link, a.projects:visited {
-  color: white;
+.project-panel:hover {
+   box-shadow: 10px 10px 5px #888888;
 }
-
-a.projects:hover {
-  color: black;
-}
-
-
 .panel-body {
   height: 15em;
 }
